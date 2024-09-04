@@ -9,27 +9,30 @@ $(function(){
     dots: true,
     slidesToShow: 2,
     slidesToScroll: 2,
-    // autoplay: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 1141,
-    //     settings: {
-    //       slidesToShow: 3,
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 851,
-    //     settings: {
-    //       slidesToShow: 2,
-    //     }
-    //   },
-    //   {
-    //     breakpoint: 586,
-    //     settings: {
-    //       slidesToShow: 1,
-    //     }
-    //   },
-    // ]
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1021,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 801,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+        }
+      },
+      // {
+      //   breakpoint: 586,
+      //   settings: {
+      //     slidesToShow: 1,
+      //   }
+      // },
+    ]
     
   });
 
