@@ -611,7 +611,6 @@ p {
   flex-direction: column;
   justify-content: space-between;
   margin-right: 32px;
-  /* margin-left: 32px; */
   background-color: #fff;
 }
 
@@ -696,7 +695,6 @@ p {
 }
 
 .info__img {
-  /* max-width: 950px; */
   width: 50%;
 }
 
@@ -796,7 +794,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-left: 73px; */
 }
 
 .footer__list a {
@@ -874,7 +871,6 @@ p {
 
 /* form */
 .form__inner {
-  width: 100%;
   max-width: 798px;
   width: 100%;
   margin: 0 auto;

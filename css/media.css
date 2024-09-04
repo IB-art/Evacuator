@@ -544,6 +544,69 @@
     margin: 25px 10px;
     max-width: 100%;
   }
+
+  .input-file + label {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 730px) {
+  .creation {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .creation__top {
+    margin-bottom: 45px;
+  }
+
+  .creation__top img {
+    width: 70px;
+    height: 50px;
+  }
+
+  .form__inner {
+    width: 90%;
+  }
+
+  .settings__line input::placeholder,
+  textarea::placeholder {
+    font-size: 20px;
+    top: 14px;
+  }
+
+  .jq-selectbox__select,
+  .jq-selectbox li,
+  .settings__line input,
+  textarea {
+    font-size: 20px;
+  }
+
+  .form__inner-bottom .settings__line {
+    align-items: inherit;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .settings__line {
+    padding-top: 30px;
+  }
+
+  .form__box input {
+    max-width: 100%;
+  }
+
+  .form__title {
+    font-size: 22px;
+  }
+
+  .fin p {
+    font-size: 20px;
+  }
+
+  .form__box span {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -813,6 +876,10 @@
   .price {
     margin: 50px 0;
   }
+
+  .form__title {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -1036,5 +1103,45 @@
 
   .footer__inner {
     padding: 20px 0;
+  }
+
+  .settings__line label {
+    font-size: 18px;
+  }
+
+  .form__title {
+    font-size: 18px;
+  }
+
+  .finish__text {
+    font-size: 18px;
+  }
+
+  .fin p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .input-file + label {
+    padding: 8px 8px;
+    font-size: 11px;
+  }
+
+  .form__box span {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .jq-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+
+  textarea {
+    height: 270px;
+  }
+
+  .creation__top img {
+    width: 50px;
+    height: 35px;
   }
 }
