@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "SF-Pro-Text-Regular";
+  font-display: swap;
+  src: url("../fonts/SF-Pro-Text-Regular.ttf") format("truetype");
+  src: url("../fonts/SF-Pro-Text-Regular.woff2") format("woff2"),
+    url("../fonts/SF-Pro-Text-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Text-Bold";
+  font-display: swap;
+  src: url("../fonts/SF-Pro-Text-Bold.ttf") format("truetype");
+  src: url("../fonts/SF-Pro-Text-Bold.woff2") format("woff2"),
+    url("../fonts/SF-Pro-Text-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Text-Semibold";
+  font-display: swap;
+  src: url("../fonts/SF-Pro-Text-Semibold.ttf") format("truetype");
+  src: url("../fonts/SF-Pro-Text-Semibold.woff2") format("woff2"),
+    url("../fonts/SF-Pro-Text-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Text-Medium";
+  font-display: swap;
+  src: url("../fonts/SF-Pro-Text-Medium.ttf") format("truetype");
+  src: url("../fonts/SF-Pro-Text-Medium.woff2") format("woff2"),
+    url("../fonts/SF-Pro-Text-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF-Pro-Rounded-Semibold";
+  font-display: swap;
+  src: url("../fonts/SF-Pro-Rounded-Semibold.ttf") format("truetype");
+  src: url("../fonts/SF-Pro-Rounded-Semibold.woff2") format("woff2"),
+    url("../fonts/SF-Pro-Rounded-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}

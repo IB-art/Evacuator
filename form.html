@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body id="top">
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="logo"><img src="images/logo.png" alt="logo"></div>
+        <div class="header__menu">
+          <a href="#">о проекте</a>
+          <a href="#">контакты</a>
+        </div>
+        <div class="header__button"><a href="#">Добавить объявление</a></div>
+      </div>
+
+
+    </div>
+  </header>
+
+  <div class="banner">
+    <div class="banner__inner banner__inner-top">
+      <div class="banner__text">Создание объявления</div>
+    </div>
+  </div>
+
+  <section class="creation">
+    <div class="container">
+      <div class="creation__inner">
+
+        <div class="creation__top">
+          <img src="images/creation.png" alt="">
+          <p class="creation__text">Заполните все поля формы на размещение своего объявления на сайте. <br>
+            Размещение объявления платное. Стоимость за одно объявление составляет <span>990 руб.</span> <br>
+            Объявление будет опубликовано на сайте после оплаты и проверки модератором.</p>
+        </div>
+      </div>
+
+      <div class="form-top">
+        <form class="form ">
+          <div class="form__inner form__inner-top">
+            <div class="settings__line">
+              <label>Выберете город*</label>
+              <select>
+                <option>Москва</option>
+                <option>Санкт-Петербур</option>
+                <option>Новосибирск</option>
+              </select>
+            </div>
+
+            <div class="settings__line">
+              <label>Ваше имя*</label>
+              <input type="text" required>
+            </div>
+
+            <div class="settings__line">
+              <label>Номер мобильного телефона*</label>
+              <input type="text" placeholder="+7 (999) 999 99 99" required>
+            </div>
+            <div class="settings__line">
+              <label>Номер городского телефона</label>
+              <input type="text" placeholder="+7 (999) 999 99 99" required>
+            </div>
+
+            <div class="settings__line">
+              <label>Ваш email*</label>
+              <input type="text" placeholder="example@gmail.com" required percentagerate monthlypayment overpayment
+                data-pattern="([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2}$">
+            </div>
+
+            <div class="settings__line">
+              <label>Адрес стоянки эвакуатора*</label>
+              <input type="text" placeholder="" required>
+            </div>
+
+          </div>
+
+          <div class="form__v">
+            <div class="form__title">ИНФОРМАЦИЯ</div>
+          </div>
+
+          <div class="form__inner form__inner-middle">
+            <div class="settings__line">
+              <label>Заголовок объявления*</label>
+              <input type="text" placeholder="Не более 50 символов" required minlength="1" maxlength="50">
+            </div>
+
+            <div class="settings__line">
+              <label>Описание объявления*</label>
+              <textarea placeholder="Не более 50 символов" required minlength="1" maxlength="50"></textarea>
+            </div>
+          </div>
+
+          <div class="form__v">
+            <div class="form__title">ЦЕНЫ</div>
+          </div>
+
+          <div class="form__inner form__inner-bottom">
+
+            <div class="settings__line">
+              <label>Легковые автомобили</label>
+              <div class="form__box">
+                <input type="text" placeholder=""> <span>рублей</span>
+              </div>
+              <div class="form__box">
+                <input type="checkbox" name="name1" value="val1"><span>Услугу не оказываю</span>
+              </div>
+            </div>
+
+            <div class="settings__line">
+              <label>Мототехника</label>
+              <div class="form__box">
+                <input type="text" placeholder=""> <span>рублей</span>
+              </div>
+              <div class="form__box">
+                <input type="checkbox" name="name2" value="val2"><span>Услугу не оказываю</span>
+              </div>
+            </div>
+
+            <div class="settings__line">
+              <label>Внедорожник</label>
+              <div class="form__box">
+                <input type="text" placeholder=""> <span>рублей</span>
+              </div>
+              <div class="form__box">
+                <input type="checkbox" name="name3" value="val3"><span>Услугу не оказываю</span>
+              </div>
+            </div>
+
+            <div class="settings__line">
+              <label>Микроавтобус</label>
+              <div class="form__box">
+                <input type="text" placeholder=""> <span>рублей</span>
+              </div>
+              <div class="form__box">
+                <input type="checkbox" name="name4" value="val4"><span>Услугу не оказываю</span>
+              </div>
+            </div>
+
+            <div class="settings__line">
+              <label>Загородный тариф</label>
+              <div class="form__box">
+                <input type="text" placeholder=""> <span>руб/км</span>
+              </div>
+              <div class="form__box">
+                <input type="checkbox" name="name5" value="val5"><span>Услугу не оказываю</span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="form__v">
+            <div class="form__title">ФОТО</div>
+          </div>
+
+          <div class="finish">
+            <p class="finish__text">Прикрепите фотографию к объявлению</p>
+
+            <div class="boxi">
+              <input class="input-file" name="file" type="file" id="file"
+                data-multiple-caption="(count) файлов выьранно" multiple>
+              <label for="file"><span>Загрузить</span></label>
+            </div>
+
+          </div>
+
+          <div class="fin">
+            <div class="fin__checkbox"><input type="checkbox" name="name1" value="val"></div>
+
+            <p>Я соглашаюсь с правилами использования сервиса, а также с передачей и обработкой моих данных в evarus.ru.
+              Я подтверждаю своё совершеннолетие и ответственность за размещение.</p>
+          </div>
+
+          <button class="fin__btn" type="submit">Продолжить</button>
+
+        </form>
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <a class="arrow-bottom" href="#top"><img src="images/arrow-bottom.png" alt=""></a>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <nav class="nav">
+          <div class="logo"><img src="images/logo.png" alt="logo"></div>
+          <ul class="footer__list">
+            <li><a href="#">Вызвать эвакуатор</a></li>
+            <li><a href="#">Добавить эвакуатор на сайт</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">Правила оплаты</a></li>
+            <li><a href="#">Защита персональных данных</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.formstyler.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
